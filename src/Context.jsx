@@ -7,7 +7,7 @@ const AppContext = React.createContext();
 
 const initialState = {
   isLoading: false,
-  cart: cartItems,
+  cart: [],
   total: 0,
   amount: 0,
 };
