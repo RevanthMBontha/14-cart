@@ -1,5 +1,4 @@
 import React, { useState, useContext, useReducer, useEffect } from 'react';
-import cartItems from './data';
 import reducer from './Reducer';
 
 const url = 'https://api-for-basic-projects.netlify.app/cart/cart_data.json';
